@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.product {
+  border: 4px solid #000;
+  width: 825px;
+  margin: 50px auto;
+  font-family: sans-serif;
+  line-height: 1.4;
+  position: relative;
+}
+
+.product-title {
+  background-color: #f7f7f7;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 15px;
+}
+
+h2::before {
+  content: "sale";
+  text-transform: uppercase;
+  background-color: #ec2f2f;
+  padding: 7px 15px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
+
+  position: absolute;
+  top: -17px;
+  left: -38px;
+}
+
+strong {
+  font-size: 24px;
+}
+
+.free-shipping {
+  text-transform: uppercase;
+  color: #777;
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+a:link,
+a:visited {
+  color: #000;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+.colors {
+  /* background-color: blue; */
+  /* display: inline-block; */
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.color {
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.color:first-child {
+  background-color: green;
+}
+
+.color:nth-child(2) {
+  background-color: brown;
+}
+
+.color:nth-child(3) {
+  background-color: orange;
+}
+
+.color:nth-child(4) {
+  background-color: red;
+}
+
+.color:nth-child(5) {
+  background-color: orangered;
+}
+
+.color:last-child {
+  background-color: purple;
+}
+
+.details-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+ul {
+  padding-left: 25px;
+  list-style: square;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #000;
+  border: 0;
+  border-top: 4px solid #000;
+  text-transform: uppercase;
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+  width: 100%;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #000;
+}
