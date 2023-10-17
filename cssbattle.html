@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 100px auto;
+        background: #ed6a9d;
+      }
+      .box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+      .box div {
+        border: 50px solid transparent;
+        border-top: 0;
+        border-right: 50px solid #050044;
+        border-top: 50px solid #050044;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </body>
+</html>
